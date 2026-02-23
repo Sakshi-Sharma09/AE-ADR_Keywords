@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openadr"
+version = "0.1.0"
+description = "Free open-source Adverse Event (AE) and Adverse Drug Reaction (ADR) lexicon for research and NLP."
+authors = [
+  { name = "Sakshi Sharma", email = "sakshisharma090199@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["openadr*"]
