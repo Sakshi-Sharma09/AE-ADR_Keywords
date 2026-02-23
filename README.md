@@ -14,7 +14,7 @@ Designed for pharmacovigilance research, ADR mining, and biomedical NLP projects
 ### Option 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/yourusername/openadr.git
+git clone (https://github.com/Sakshi-Sharma09/AE-ADR_Keywords)
 cd openadr
 ```
 
